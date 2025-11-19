@@ -13,7 +13,7 @@ const Header = () => {
   const [loginData, setLoginData] = useState({
     email: '',
     password: ''
-  });
+  }); 
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState('');
 
